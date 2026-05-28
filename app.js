@@ -1024,8 +1024,8 @@ function renderSettings(){
     <div style="max-width:600px">
       <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:18px">
         <div class="sdiv" style="margin-top:0">Company logo</div>
-        <p style="font-size:13px;color:var(--text2);margin-bottom:10px">To add the Thinkcap Advisors logo, place your logo file (e.g. <code>thinkcap-logo.png</code>) in the same folder as <code>index.html</code>, then update the logo area in <code>index.html</code>:</p>
-        <code style="background:var(--bg);padding:8px 12px;border-radius:var(--radius);display:block;font-size:12px">Replace the .logo-placeholder div with:<br>&lt;img src="thinkcap-logo.png" class="logo-img" alt="Thinkcap Advisors"&gt;</code>
+        <p style="font-size:13px;color:var(--text2);margin-bottom:10px">The Thinkcap Advisors logo is loaded from <code>thinkcap-logo.jpg</code>. Keep that file in the same folder as <code>index.html</code> when uploading to GitHub or deploying on Vercel.</p>
+        <code style="background:var(--bg);padding:8px 12px;border-radius:var(--radius);display:block;font-size:12px">&lt;img src="thinkcap-logo.jpg" class="logo-mark logo-image" alt="Thinkcap Advisors logo"&gt;</code>
       </div>
       ${Object.entries(keys).map(([k,label])=>`
         <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:12px">
@@ -1488,4 +1488,3 @@ function refreshReminderList() {
   }
   updateBellBadge();
 }
-

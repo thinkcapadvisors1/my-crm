@@ -44,6 +44,7 @@ body{font-family:var(--font);font-size:14px;color:var(--text);background:var(--b
 .logo-wrap{padding:16px 14px;border-bottom:1px solid var(--sidebar-border);flex-shrink:0}
 .logo-placeholder{display:flex;align-items:center;gap:10px;cursor:pointer}
 .logo-mark{width:36px;height:36px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;flex-shrink:0;letter-spacing:.5px}
+.logo-image{object-fit:contain;background:#fff;padding:4px}
 .logo-name{font-size:14px;font-weight:700;color:#fff;letter-spacing:-.2px}
 .logo-sub{font-size:10px;color:var(--sidebar-text);text-transform:uppercase;letter-spacing:.06em}
 
